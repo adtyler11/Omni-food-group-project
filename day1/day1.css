@@ -1,0 +1,608 @@
+
+html{
+    color: #555;
+ font-family: 'Lato'; 
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+} 
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+} */
+
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) ,
+
+    url("../day1/Omnifood Contents/Omnifood Contents/hero.jpg");
+background-size: cover;
+background-position: center;
+height: 100vh;
+background-attachment: fixed;
+}
+.row{
+
+    max-width: 1140px;
+   padding-top: 15px;
+    margin: 0 auto;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-decoration: none;
+   color: white;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+a:link
+{
+   color: white; 
+   text-decoration: none;
+   
+}
+#hhhhh
+{
+    width: 1000px;
+    margin: 0 auto;
+    /* padding-left: 100px; */
+}
+a:hover
+{
+    text-decoration: underline #cf6d17;
+}
+.navigation
+{
+    color: white;
+    text-decoration: none;
+    justify-items: flex-end;
+    justify-content: space-evenly;
+
+}
+li
+{
+    display: inline;
+    justify-content: flex-end;
+    padding-right: 20px;
+
+}
+.headtext
+{
+width: 1140px;
+position: absolute;
+top: 50%;
+left: 50%;
+ transform: translate(-50%, -50%);
+ color: white;
+ font-size: 250%;
+ font-weight: 300;
+ word-spacing: 4;
+ text-transform:uppercase;
+}
+.btnss
+{
+    margin-top: 25px; 
+    font-size: 35%;
+    text-transform: capitalize;
+}
+.logo
+{
+    height: 100px;
+    width: auto;
+
+}
+li{
+    border-bottom: transparent;
+}
+.btn
+{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300px;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+}
+.btn:hover, btn:active
+{
+    background-color: #cf6d17;
+}
+.btn-full
+{
+    background-color: #cf6d17;
+    border: 1px solid #cf6d17;
+    color: #fff;
+    transition: 0.2s;
+}
+.btn-ghost
+{
+border: 1px solid;
+color: #cf6d17;
+
+}
+.btn-full:hover, .btn-full:active
+{
+    border: 1px solid #cf6d17;
+}
+.btn-ghost:hover, .btn-ghost:active
+{
+    border: 1px solid #cf6d17;
+    color: #fff;
+}
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+h2:after {
+    
+display: block;
+height: 2px;
+width: 100px;
+background-color: #e67e22;
+content: "";
+margin: auto;
+margin-top: 30px;
+}
+.icon-big{
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+    --ionicon-stroke-width: 20px;
+}
+.meal-photo{
+    justify-self: flex-start;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    display: block;
+}
+
+.meal-photo img{
+
+    opacity: 0.7;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform .5s, opacity 0.5s;
+}
+td{
+    overflow: hidden;
+}
+table{
+    width: 100%;
+    border-spacing: 0px;
+}
+.meal-photo img:hover{
+    opacity: .9;
+    transform: scale(1.00);
+}
+.maintwo
+{
+text-align: center;
+margin: 50px;
+margin-left: 200px;
+margin-right: 200px;
+}
+.container
+{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.con
+{
+justify-content: space-evenly;
+}
+.con-one
+{
+    width: 700px;
+}
+.con-two
+{
+    width: 600px;
+}
+.con-three
+{
+    width: 600px;
+}
+.con-four
+{
+    width: 600px;
+}
+
+.works{
+    background-color: #f4f4f4c8;
+    /* padding-bottom: 10px; */
+    max-height: fit-content;
+}
+.how
+{
+    /* padding: 0; */
+    height: 550px;
+    max-width: 1140px;
+    margin-left: 30%;
+    /* margin: 0 auto; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+}
+.phone
+{
+    width: 100%;
+    height: 400px;
+    display: block;
+    align-self: center;
+    margin-left: 15%;
+
+}
+
+.num
+{
+    font-size: 30px;
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 10px;
+    height: 60px;
+    width: 70px;
+    margin-right: 15px;
+}
+.item1
+{
+    display: block;
+    left: 50%;
+}
+.list
+{
+    align-self: center;
+    width: 500px;
+    height: auto;
+    margin-left: 7%;
+    font-size: 20px;
+}
+.item1{
+    display: flex;
+}
+.item2
+{
+    display: flex;
+    
+}
+#leftpad
+{
+    margin-left: 20px;
+}
+.item3
+{
+    display: flex;
+}
+.apps
+{
+    display:flex;
+    align-self: baseline;
+    width: 600px;
+height: auto;
+    margin-left: 15%;
+}
+.headhow
+{
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin: 0 50px;
+    margin-left: 700px;
+    margin-right: 500px;
+    padding-top: 40px;
+    /* padding-bottom: 5px; */
+    display: flex;
+    max-width: 1140px;
+     
+    
+}
+.btn-app
+{
+    padding-right: 10px;
+}
+.headdd
+{
+    padding-top: 100px;
+}
+.cities{
+    margin-left: 20%;
+    margin-right: 20%;
+    max-width: 1140px;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.place
+{
+    height: 150px;
+    width: auto;
+}
+.quote
+{
+    font-size: 60px;
+}
+#hh
+{
+    padding-top: 25px;
+    text-align: center;
+    height: 100px;
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.lnh{line-height: 30px;}
+
+
+.bac
+{
+    margin-top: 100px;
+    height: 500px;
+    background-image: linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8)),
+     url("../day1/Omnifood Contents/Omnifood Contents/back-customers.jpg");
+     justify-content: space-evenly; 
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+#prof
+{
+    border: 1px;
+    border-radius: 50%;
+    height: 50px;
+}
+.rev
+{
+    display:flex;
+    /* justify-content: space-evenly; */
+    gap: 30px;
+    justify-content: center;
+
+    
+   
+}
+.revq
+{
+    width: 300px;
+}
+.revw
+{
+    width: 300px;
+}
+.reve
+{
+    width: 300px;
+}
+.priceplans
+{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    font-size: 20px;
+    line-height: 170%;
+}
+.premium
+{
+    padding: 20px;
+    font-size: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: #fcfcfc;
+}
+.pro
+{
+    padding: 20px;
+    font-size: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: #fcfcfc;
+}
+.starter
+{
+    padding: 20px;
+    font-size: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: #fcfcfc;
+    
+}
+.health
+{
+    text-align: center;
+}
+.eathealthy
+{
+    padding: 100px;
+    background-color: #f4f4f4;
+}
+.ppp
+{
+    margin-left: 30%;
+    margin-right: 20%;
+    margin-top: 10px;
+   padding-bottom: 20px;
+}
+#ii
+{
+    margin-bottom: 17px;
+    
+}
+h3{
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+#iip
+{
+    margin-bottom: 22px;
+}
+.ppl
+{
+    font-size: 17px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    line-height: 100%;
+}
+#org
+{
+    color: #e67e22;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#oo
+{
+margin-bottom: 10px;
+}
+.map{
+    height: 500px;
+    width: auto;
+    background-color: #555;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.box
+{
+    height: 450px;
+    width: 700px;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    font-size: 25px;
+    padding: 60px;
+    
+}
+.title
+{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+#gmap
+{
+    width: 700%;
+    height: 60%;
+    position: absolute;
+}
+ .input
+ {
+    position: relative;
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+ }
+ #message
+ {
+    height: 60px;
+    width: 100%;
+ }
+ #lb{
+    width: 32.5%;
+ }
+ 
+ footer
+ {
+    height: 100px;
+    background-color: rgb(51, 49, 49);
+    display: flex;
+    font-size: 14px;
+    justify-content: space-evenly;
+    color: rgba(211, 211, 211, 0.463);
+    
+ }
+ 
+ .anchor
+ {
+    margin-top: 105px;
+    width: 500px;
+    justify-content: space-evenly;
+    margin-right: 900px;
+    display: inline-flex;
+    
+    
+    
+ }
+ #pop
+ {
+    padding-left: 5px;
+ }
+ .check
+ {
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+    padding: 7px;
+    
+ }
+ .socials
+ {
+    width: 200px;
+    justify-content: space-evenly;
+    display: inline-flex;
+    
+    
+ }
+ #n:hover{
+    color: white;
+ }
+    
+
+ .copyright
+ {
+    float: right;
+    display: inline-flex;
+    justify-self: center;
+   align-self: center;
+ }
+ #fb:hover,#fb:active
+ {
+  color: blue;
+ }
+
+ #tt:hover{
+    color: rgb(10, 168, 247);
+ }
+
+ #yt:hover
+ {
+    color: red;
+ }
+ #ig:hover{
+color: purple;
+ }
+
+ .icon{
+    color: #e67e22;
+ }
+
+ 
